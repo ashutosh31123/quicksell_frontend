@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+  background-color: #f2f2f2;
+  height: 100vh;
+  width: 100%;
+  padding: 0 20px;
+  /* Add padding to avoid edges on small screens */
+  box-sizing: border-box;
+}
+
+/* Media Queries for responsiveness */
+
+/* For devices with width 768px and below (Tablets, large phones) */
+@media (max-width: 768px) {
+  .App {
+    padding: 0 15px;
+    height: auto;
+    /* Allow the height to adjust naturally */
+  }
+}
+
+/* For devices with width 480px and below (Mobile phones) */
+@media (max-width: 480px) {
+  .App {
+    padding: 0 10px;
+    font-size: 0.9rem;
+    /* Make text slightly smaller */
+  }
+}
